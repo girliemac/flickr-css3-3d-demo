@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="common.css" type="text/css" />
+		<link rel="stylesheet" href="stylesheets/flickr.css" type="text/css" media="screen" charset="utf-8" />
+		<script src="js/flickr.js"></script>
+		<title>WebKit CSS and Local DB Demo</title>
+		
+	</head>
+	<body class="test">
+		
+		<h1>WebKit CSS and Local DB Demo</h1>
+		
+		<input type="button" id="stopButton" value="I'm sick! Stop the animation now!"/>
+		
+		<div id="viewFaveButton">
+			View "My Faves"
+		</div>
+			
+			
+		<div id="container">
+			<div id="stage">
+				<div id="galleryWrapper">
+					<div id="gallery"></div>
+				</div>
+				<div id="gallery2Wrapper">
+					<div id="gallery2"></div>	
+				</div>
+			</div>
+		</div>
+		
+		<div id="displayPane">
+			<div id="photoDisplay" style="display:none">
+				<img id="photo" />
+				<div id="content">
+					<div id="title"></div>
+					<div><a id="flickrUrl" href="" target="_blank"></a></div>
+					<div id="addFave">Add this pic to My Faves</div>
+				</div>
+			</div>
+			<div id="faveDisplay" style="display:none">
+				<h2>My Faves (Saved URLs)</h2>
+				<div id="faveList">
+					
+				</div>
+				<div id="deleteAll"><a href="#deleteAll" onclick="deleteTable();">Delete All</a></div>
+			</div>
+				
+			<div style="clear:both"></div>
+		</div>
+		<div align="right"><a href="http://girliemac.com/blog/">Tomomi Imura / GirlieMac!</a></div>
+	
+	</body>
+</html>

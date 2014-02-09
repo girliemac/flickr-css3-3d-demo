@@ -1,0 +1,32 @@
+html {
+	color: #fff;
+	background: #222;
+	background-image: -webkit-gradient(radial,
+                            50% 0, 10,
+                            50% 0, 400,
+                            from(rgba(255, 255, 255, 0.3)),
+                            to(rgba(255, 255, 255, 0))
+							);
+	background-image: -moz-radial-gradient(
+							top center,
+							circle, 
+							rgba(255, 255, 255, 0.3) 0%, 
+							rgba(255, 255, 255, 0) 50%
+							);
+    background-repeat: no-repeat;
+	min-height: 600px;
+}
+body {
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, arial, sans-serif;
+}
+h1 {
+	text-shadow: rgba(255,255,255, .7) 0px 0px 10px;
+	font-size: 2em;
+}
+a {
+	color: #f281b5;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
